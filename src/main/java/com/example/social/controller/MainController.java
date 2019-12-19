@@ -1,8 +1,8 @@
-package com.example.sweater.controller;
+package com.example.social.controller;
 
-import com.example.sweater.domain.Message;
-import com.example.sweater.domain.User;
-import com.example.sweater.repos.MessageRepo;
+import com.example.social.domain.Message;
+import com.example.social.domain.User;
+import com.example.social.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
